@@ -13,7 +13,7 @@ Adjust the silhoutteThreshold so that the silhouettes of the statue are clearly 
 
 ### 2. Volume of interest
 Define the volume of interest. At first use a larger bounding box than
-necessary, just to make sure the statue has included. Then make the bounding box tight to get better resolution.
+necessary, just to make sure the statue has been included. Then make the bounding box tight to get better resolution.
 Similarly, we can start with a coarse grid, say 10 * 10 * 20, and then try a larger grid, at least 64 * 64 * 128.
 
 <img src="https://user-images.githubusercontent.com/29389892/35713570-550f7c24-07c8-11e8-8ac1-bc7a0598b8c5.png" width="370" height="280">
